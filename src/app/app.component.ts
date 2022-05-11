@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AttributeAngularDemo';
+  typeField = "password"
+
+
+  zoomIn():void{
+    this.typeField = "text"
+  }
+
+  zoomOut():void{
+    this.typeField = "password"
+  }
 }
